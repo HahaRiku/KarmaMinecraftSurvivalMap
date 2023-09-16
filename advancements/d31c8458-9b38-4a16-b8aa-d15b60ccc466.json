@@ -423,6 +423,7 @@
     "criteria": {
       "cooked_mutton": "2023-09-14 21:05:30 +0800",
       "bread": "2023-09-14 22:08:58 +0800",
+      "golden_apple": "2023-09-16 13:41:14 +0800",
       "rotten_flesh": "2023-09-14 21:19:12 +0800",
       "dried_kelp": "2023-09-14 21:14:17 +0800",
       "melon_slice": "2023-09-14 22:11:00 +0800"
@@ -1442,12 +1443,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2023-09-16 00:24:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2023-09-16 00:21:54 +0800"
@@ -1478,15 +1473,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/activator_rail": {
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2023-09-16 00:21:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2023-09-16 00:24:23 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/loom": {
+  "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
-      "has_string": "2023-09-16 00:21:54 +0800"
+      "has_rail": "2023-09-16 00:24:23 +0800"
     },
     "done": true
   },
