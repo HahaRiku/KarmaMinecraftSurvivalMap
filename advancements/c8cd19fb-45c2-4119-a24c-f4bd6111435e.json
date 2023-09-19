@@ -1443,6 +1443,7 @@
       "minecraft:skeleton": "2023-09-15 23:43:26 +0800",
       "minecraft:spider": "2023-09-15 23:40:01 +0800",
       "minecraft:creeper": "2023-09-16 00:20:43 +0800",
+      "minecraft:phantom": "2023-09-19 20:39:52 +0800",
       "minecraft:zombie": "2023-09-16 00:23:25 +0800"
     },
     "done": false
@@ -1573,15 +1574,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_raw_gold": "2023-09-17 13:22:44 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2023-09-17 13:16:58 +0800"
+      "has_water_bucket": "2023-09-17 12:44:41 +0800"
     },
     "done": true
   },
@@ -1591,9 +1586,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
+  "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
-      "has_raw_gold": "2023-09-17 13:22:44 +0800"
+      "has_diamond": "2023-09-17 13:16:58 +0800"
     },
     "done": true
   },
@@ -1615,21 +1610,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2023-09-17 13:22:44 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2023-09-17 13:16:58 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2023-09-17 12:44:41 +0800"
     },
     "done": true
   },
@@ -1672,6 +1655,30 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2023-09-17 13:16:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2023-09-17 13:22:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2023-09-17 13:22:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2023-09-17 13:22:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-09-19 20:51:01 +0800"
     },
     "done": true
   },
