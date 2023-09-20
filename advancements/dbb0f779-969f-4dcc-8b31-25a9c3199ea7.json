@@ -316,6 +316,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2023-09-20 21:53:25 +0800",
       "apple": "2023-09-18 22:46:30 +0800",
       "bread": "2023-09-14 21:46:33 +0800",
       "rotten_flesh": "2023-09-14 22:00:24 +0800",
@@ -474,6 +475,8 @@
       "minecraft:skeleton": "2023-09-14 21:37:11 +0800",
       "minecraft:spider": "2023-09-16 19:45:23 +0800",
       "minecraft:phantom": "2023-09-16 19:12:16 +0800",
+      "minecraft:wither_skeleton": "2023-09-20 21:21:29 +0800",
+      "minecraft:piglin": "2023-09-20 21:14:33 +0800",
       "minecraft:enderman": "2023-09-14 21:36:14 +0800",
       "minecraft:zombie": "2023-09-14 21:59:02 +0800",
       "minecraft:drowned": "2023-09-14 23:25:38 +0800",
@@ -2142,7 +2145,8 @@
       "minecraft:cat": "2023-09-18 22:16:09 +0800",
       "minecraft:pig": "2023-09-17 00:47:24 +0800",
       "minecraft:cow": "2023-09-16 23:07:28 +0800",
-      "minecraft:chicken": "2023-09-16 23:38:50 +0800"
+      "minecraft:chicken": "2023-09-16 23:38:50 +0800",
+      "minecraft:bee": "2023-09-19 23:25:19 +0800"
     },
     "done": false
   },
@@ -2330,6 +2334,103 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_bowl": "2023-09-18 22:21:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2023-09-20 21:21:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2023-09-20 21:21:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2023-09-20 22:31:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-09-20 21:14:05 +0800",
+      "minecraft:soul_sand_valley": "2023-09-20 21:13:32 +0800"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-09-20 21:13:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-09-20 21:26:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-09-20 21:13:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-09-20 21:21:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-09-20 21:21:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2023-09-20 21:21:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2023-09-20 21:21:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-09-20 21:20:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2023-09-20 21:19:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2023-09-20 21:26:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2023-09-20 21:21:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2023-09-20 21:21:13 +0800"
     },
     "done": true
   },
