@@ -7,11 +7,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:bamboo_jungle": "2023-09-21 23:31:31 +0800",
       "minecraft:beach": "2023-09-14 21:06:26 +0800",
       "minecraft:sparse_jungle": "2023-09-14 21:00:31 +0800",
       "minecraft:lukewarm_ocean": "2023-09-14 21:25:16 +0800",
       "minecraft:river": "2023-09-14 21:06:13 +0800",
+      "minecraft:stony_shore": "2023-09-21 23:41:27 +0800",
       "minecraft:forest": "2023-09-14 21:06:56 +0800",
+      "minecraft:desert": "2023-09-21 23:44:16 +0800",
       "minecraft:jungle": "2023-09-14 21:06:48 +0800",
       "minecraft:windswept_savanna": "2023-09-14 20:43:43 +0800",
       "minecraft:deep_lukewarm_ocean": "2023-09-14 23:03:44 +0800",
@@ -2032,8 +2035,10 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:white": "2023-09-21 21:39:24 +0800",
       "minecraft:tabby": "2023-09-18 00:22:02 +0800",
       "minecraft:calico": "2023-09-18 00:14:43 +0800",
+      "minecraft:persian": "2023-09-21 21:18:35 +0800",
       "minecraft:red": "2023-09-18 00:23:40 +0800"
     },
     "done": false
@@ -2336,6 +2341,48 @@
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2023-09-19 21:02:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-09-21 21:32:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-09-21 22:45:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-09-21 22:00:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2023-09-21 21:10:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-09-21 22:45:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2023-09-21 21:10:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-09-21 22:39:01 +0800"
     },
     "done": true
   },
