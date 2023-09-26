@@ -15,6 +15,7 @@
       "minecraft:lush_caves": "2023-09-15 21:35:55 +0800",
       "minecraft:jungle": "2023-09-14 22:22:47 +0800",
       "minecraft:windswept_savanna": "2023-09-14 21:21:09 +0800",
+      "minecraft:deep_lukewarm_ocean": "2023-09-25 23:44:53 +0800",
       "minecraft:savanna": "2023-09-16 23:34:52 +0800",
       "minecraft:plains": "2023-09-16 23:34:09 +0800"
     },
@@ -321,6 +322,7 @@
       "bread": "2023-09-14 21:46:33 +0800",
       "rotten_flesh": "2023-09-14 22:00:24 +0800",
       "melon_slice": "2023-09-14 22:14:45 +0800",
+      "cooked_chicken": "2023-09-25 23:09:50 +0800",
       "cod": "2023-09-14 21:29:44 +0800",
       "carrot": "2023-09-17 20:18:11 +0800"
     },
@@ -2288,7 +2290,9 @@
     "criteria": {
       "minecraft:white": "2023-09-17 22:00:02 +0800",
       "minecraft:tabby": "2023-09-24 18:15:11 +0800",
-      "minecraft:calico": "2023-09-18 22:14:13 +0800"
+      "minecraft:calico": "2023-09-18 22:14:13 +0800",
+      "minecraft:jellie": "2023-09-25 22:22:10 +0800",
+      "minecraft:ragdoll": "2023-09-25 21:57:32 +0800"
     },
     "done": false
   },
@@ -2581,6 +2585,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-09-24 15:36:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-09-24 15:36:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2023-09-24 17:50:54 +0800"
@@ -2593,15 +2609,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_beef": "2023-09-24 15:36:57 +0800"
+      "has_iron_block": "2023-09-25 22:27:52 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+  "minecraft:recipes/decorations/anvil": {
     "criteria": {
-      "has_beef": "2023-09-24 15:36:57 +0800"
+      "has_iron_block": "2023-09-25 22:27:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-09-25 23:13:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-09-25 23:13:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2023-09-25 23:57:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2023-09-25 23:52:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2023-09-25 23:57:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2023-09-25 23:52:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2023-09-25 23:52:11 +0800"
     },
     "done": true
   },
