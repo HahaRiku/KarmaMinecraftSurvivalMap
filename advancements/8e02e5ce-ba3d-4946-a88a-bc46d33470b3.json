@@ -1351,7 +1351,8 @@
     "criteria": {
       "minecraft:turtle": "2023-09-16 23:53:06 +0800",
       "minecraft:sheep": "2023-09-14 23:34:36 +0800",
-      "minecraft:cow": "2023-09-14 23:34:49 +0800"
+      "minecraft:cow": "2023-09-14 23:34:49 +0800",
+      "minecraft:wolf": "2023-09-28 01:02:09 +0800"
     },
     "done": false
   },
@@ -3168,21 +3169,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_terracotta": {
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
     "criteria": {
-      "has_terracotta": "2023-09-25 22:33:38 +0800"
+      "has_cut_sandstone": "2023-09-25 22:08:44 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
-      "has_log": "2023-09-25 23:01:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-09-25 22:33:38 +0800"
+      "has_cut_sandstone": "2023-09-25 22:08:44 +0800"
     },
     "done": true
   },
@@ -3192,21 +3187,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_red_wool": "2023-09-26 00:33:16 +0800"
+      "has_smithing_trim_template": "2023-09-25 22:16:03 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
     "criteria": {
-      "has_boat": "2023-09-26 00:36:06 +0800"
+      "has_orange_terracotta": "2023-09-25 22:20:11 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+  "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
-      "has_light_gray_terracotta": "2023-09-25 22:33:34 +0800"
+      "has_rabbit": "2023-09-25 22:21:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2023-09-25 22:21:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2023-09-25 22:21:14 +0800"
     },
     "done": true
   },
@@ -3216,39 +3223,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
-      "has_yellow_terracotta": "2023-09-25 22:33:45 +0800"
+      "has_light_gray_terracotta": "2023-09-25 22:33:34 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_chest_raft": {
+  "minecraft:recipes/building_blocks/lime_terracotta": {
     "criteria": {
-      "has_boat": "2023-09-26 00:36:06 +0800"
+      "has_terracotta": "2023-09-25 22:33:38 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_banner": {
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
     "criteria": {
-      "has_red_wool": "2023-09-26 00:33:16 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/magma_cream": {
-    "criteria": {
-      "has_blaze_powder": "2023-09-26 01:19:24 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2023-09-26 01:19:57 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2023-09-25 22:16:03 +0800"
+      "has_terracotta": "2023-09-25 22:33:38 +0800"
     },
     "done": true
   },
@@ -3264,30 +3253,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_glazed_terracotta": {
-    "criteria": {
-      "has_white_terracotta": "2023-09-25 22:39:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2023-09-25 22:20:11 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2023-09-25 23:01:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tactical_fishing": {
-    "criteria": {
-      "salmon_bucket": "2023-09-25 23:08:03 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2023-09-25 22:33:38 +0800"
@@ -3300,39 +3265,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_chest_boat": {
-    "criteria": {
-      "has_boat": "2023-09-26 00:36:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit": {
-    "criteria": {
-      "has_rabbit": "2023-09-25 22:21:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_sandstone": {
-    "criteria": {
-      "has_sand": "2023-09-25 22:38:43 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
-    "criteria": {
-      "has_rabbit": "2023-09-25 22:21:14 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2023-09-25 22:33:38 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_chest_boat": {
-    "criteria": {
-      "has_boat": "2023-09-26 00:36:06 +0800"
     },
     "done": true
   },
@@ -3342,51 +3277,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_chest_boat": {
-    "criteria": {
-      "has_boat": "2023-09-26 00:36:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit": "2023-09-25 22:21:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_glazed_terracotta": {
-    "criteria": {
-      "has_brown_terracotta": "2023-09-25 22:40:01 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_blaze_powder": "2023-09-26 01:19:24 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_terracotta": {
     "criteria": {
       "has_terracotta": "2023-09-25 22:33:38 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2023-09-26 00:12:47 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_chest_boat": {
-    "criteria": {
-      "has_boat": "2023-09-26 00:36:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2023-09-26 01:16:14 +0800"
     },
     "done": true
   },
@@ -3399,18 +3292,6 @@
   "minecraft:recipes/building_blocks/light_blue_terracotta": {
     "criteria": {
       "has_terracotta": "2023-09-25 22:33:38 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2023-09-25 22:08:44 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2023-09-26 01:19:24 +0800"
     },
     "done": true
   },
@@ -3432,21 +3313,141 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+  "minecraft:recipes/building_blocks/green_terracotta": {
     "criteria": {
-      "has_cut_sandstone": "2023-09-25 22:08:44 +0800"
+      "has_terracotta": "2023-09-25 22:33:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-09-25 22:33:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2023-09-25 22:33:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2023-09-25 22:37:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2023-09-25 22:38:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2023-09-25 22:39:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2023-09-25 22:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-09-25 23:01:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-09-25 23:01:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2023-09-25 23:08:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2023-09-26 00:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2023-09-26 00:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2023-09-26 00:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2023-09-26 00:33:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2023-09-26 00:33:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2023-09-26 00:33:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-09-26 00:36:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2023-09-26 00:36:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-09-26 00:36:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-09-26 00:36:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-09-26 00:36:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-09-26 00:36:06 +0800"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2023-09-26 00:36:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2023-09-26 01:16:14 +0800"
     },
     "done": true
   },
@@ -3462,39 +3463,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+  "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
-      "has_blue_terracotta": "2023-09-25 22:37:47 +0800"
+      "has_glowstone_dust": "2023-09-26 01:16:14 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_moss_block": "2023-09-26 00:12:47 +0800"
+      "has_glowstone_dust": "2023-09-26 01:16:14 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/green_terracotta": {
+  "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
-      "has_terracotta": "2023-09-25 22:33:38 +0800"
+      "has_blaze_powder": "2023-09-26 01:19:24 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brown_terracotta": {
+  "minecraft:recipes/misc/ender_eye": {
     "criteria": {
-      "has_terracotta": "2023-09-25 22:33:38 +0800"
+      "has_blaze_powder": "2023-09-26 01:19:24 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+  "minecraft:recipes/misc/fire_charge": {
     "criteria": {
-      "has_moss_block": "2023-09-26 00:12:47 +0800"
+      "has_blaze_powder": "2023-09-26 01:19:24 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_bed": {
+  "minecraft:nether/brew_potion": {
     "criteria": {
-      "has_red_wool": "2023-09-26 00:33:16 +0800"
+      "potion": "2023-09-26 01:19:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2023-09-27 20:44:37 +0800"
     },
     "done": true
   },
