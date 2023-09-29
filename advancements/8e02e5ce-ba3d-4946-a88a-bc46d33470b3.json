@@ -3511,27 +3511,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/brick": {
-    "criteria": {
-      "has_clay_ball": "2023-09-28 22:40:50 +0800"
-    },
-    "done": true
-  },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2023-09-28 22:36:54 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
+  "minecraft:recipes/misc/brick": {
     "criteria": {
-      "has_poppy": "2023-09-28 23:00:22 +0800"
+      "has_clay_ball": "2023-09-28 22:40:50 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2023-09-28 22:40:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2023-09-28 23:00:22 +0800"
     },
     "done": true
   },
